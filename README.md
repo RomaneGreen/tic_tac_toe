@@ -1,6 +1,6 @@
 # Tictac
 
-A game of tic-tac-toe built in rubt
+A game of tic-tac-toe built in ruby
 
 
 
