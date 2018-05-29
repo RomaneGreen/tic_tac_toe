@@ -5,7 +5,7 @@ A game of tic-tac-toe built in rubt
 
 
 
-
+## Download/clone the repository
 `$ git https://github.com/RomaneGreen/tic_tac_toe.git`
 
 ## Running
