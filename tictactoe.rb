@@ -1,16 +1,24 @@
 class Tictactoe
 
+attr_accessor :board,:turn
 puts  %{
-
   ||T |||i |||c |||- |||T |||a |||c |||- |||T |||o |||e ||
   ||__|||__|||__|||__|||__|||__|||__|||__|||__|||__|||__||
   |/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|
-
 }
+
+def initialize()
+
+@board = [1,2,3,4,5,6,7,8,9]
+
+@player = 'X'
+@turn = 0
+
+end
 
 def play
 
-board = [1,2,3,4,5,6,7,8,9]
+
 
 
 puts "Welcome to tictactoe"
@@ -23,8 +31,7 @@ puts " #{board[6]} | #{board[7]} | #{board[8]}"
 
 
 
-player = 'X'
-turn = 0
+
 
 until turn == 9
 
@@ -41,7 +48,7 @@ puts "Square has already been taken!"
 
 else
 board[input] = "#{player}"
-turn += 1
+@turn += 1
 
 end
 
@@ -70,9 +77,9 @@ end
 #win_combination = [0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]
 
 def self.draw
-if board.all? == "X" || "O"
+  if board.all? == "X" || "O"
  puts "Game Over! Draw!"
-end
+ end
 end
 
 
