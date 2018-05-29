@@ -2,7 +2,7 @@
 
 A game of tic-tac-toe built in ruby
 
-
+![carbon 7](https://user-images.githubusercontent.com/19755484/40682352-7ac6b47c-6359-11e8-9404-730413a85625.png)
 
 
 ## Download/clone the repository
