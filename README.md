@@ -33,3 +33,6 @@ Run interactively:
 
     23 runs, 54 assertions, 0 failures, 0 errors, 0 skips
 
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/RomaneGreen/tic_tac_toe
