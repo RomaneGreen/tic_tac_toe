@@ -85,12 +85,13 @@ end
 def draw
 if turn == 9
 p "Game Over! Draw!"
-
+else
+  false
 end
 end
 
 
 end
 
-g = Tictactoe.new
-g.play
+# g = Tictactoe.new
+# g.play
