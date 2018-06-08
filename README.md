@@ -14,25 +14,25 @@ A game of tic-tac-toe built in ruby
 
 CD into the mastermind folder:
 
-	$ cd mastermind
+	$ cd bin
 
 Run interactively:
 
-	$ ruby master_mind.rb
+	$ ruby game_run.rb
 
 
 ## Tests
 
-    $ rake test
+    $ rspec
 
-	# Running:
+ `||T |||i |||c |||- |||T |||a |||c |||- |||T |||o |||e ||
+  ||__|||__|||__|||__|||__|||__|||__|||__|||__|||__|||__||
+  |/__|/__|/__|/__|/__|/__|/__|/__|/__|/__|/__|
+......
 
-	.......................
-
-    Fabulous run in 0.005212s, 4412.8933 runs/s, 10360.7061 assertions/s.
-
-    23 runs, 54 assertions, 0 failures, 0 errors, 0 skips
-
+Finished in 0.00681 seconds (files took 0.09708 seconds to load)
+6 examples, 0 failures 
+`
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/RomaneGreen/tic_tac_toe
