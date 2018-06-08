@@ -43,3 +43,11 @@ it 'adds turns' do
   expect(g).to eq true
 end
 end
+
+# describe Tictactoe do
+# it 'adds turns' do
+#     g =  Tictactoe::new.turn == 9
+#
+#   expect(g).to eq 'K'
+# end
+# end
